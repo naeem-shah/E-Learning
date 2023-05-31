@@ -77,11 +77,15 @@ class _HomePageState extends State<HomePage> {
               children: [
                 Text(
                   "ON SALE",
-                  style: textTheme.bodyMedium,
+                  style: textTheme.bodyMedium?.copyWith(
+                    fontWeight: FontWeight.w500
+                  ),
                 ),
                 Text(
                   "View All",
-                  style: textTheme.bodyMedium,
+                  style: textTheme.bodyMedium?.copyWith(
+                    color: Theme.of(context).primaryColor
+                  ),
                 ),
               ],
             ),
@@ -119,7 +123,9 @@ class _HomePageState extends State<HomePage> {
               children: [
                 Text(
                   "Popular courses".toUpperCase(),
-                  style: textTheme.bodyMedium,
+                  style: textTheme.bodyMedium?.copyWith(
+                      fontWeight: FontWeight.w500
+                  ),
                 ),
               ],
             ),

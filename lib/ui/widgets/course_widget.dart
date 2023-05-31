@@ -68,7 +68,7 @@ class CourseWidget extends StatelessWidget {
                       ),
                     ],
                     style: textTheme.bodyMedium?.copyWith(
-                      fontWeight: FontWeight.w600,
+                      fontWeight: FontWeight.w700,
                     ),
                   ),
                 ),

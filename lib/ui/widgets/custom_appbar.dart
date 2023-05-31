@@ -83,6 +83,7 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
                 "Good Morning, Qubo!",
                 style: textTheme.headlineSmall?.copyWith(
                   color: Colors.white,
+                  fontWeight: FontWeight.w500
                 ),
               ),
               const SizedBox(
